@@ -22,3 +22,14 @@ html, body {
     font-size: 64px;
     font-weight: 600;
 }
+
+.locals {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background: url("images/locals.jpg") no-repeat 50% 50%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
