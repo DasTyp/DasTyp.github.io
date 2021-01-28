@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="" type="text/css">
     </head>
     <body>	
-        <h1>lorem ipsum:</h1> <br>
+        <h1>Kontakt</h1> <br>
         <p>    
             <h2>Kontaktieren Sie uns:</h2>
             <dl>
@@ -24,29 +24,29 @@
         </p>
     
         <p>
-            Haben Sie ein Anliegen, wollen eine Sonderbestellung abgeben oder sonstige Fragen? <br>
+            Haben Sie ein Anliegen, Fragen oder wollen Sie eine Sonderbestellung aufgeben? <br>
             Kontaktieren Sie uns mithilfe des folgenden Formulars und wir kommen baldmöglichst auf Sie zu.
             <form action="" autocomplete="on">
-            <!--    <label for="email">E-Mail Addresse:</label> -->
 
                 <select id="salutation">
                     <option disabled="none" value="none" selected>---</option>
                     <option value="male">Herr</option>
                     <option value="female">Frau</option>
                     <option value="other">Divers</option>
+                </select> <br>
 
-                </select>
-                <br>
-                <input type="text" id="firstname" placeholder="Vorname" required>
-                <input type="text" id="lastname" placeholder="Nachname" required>
-                <input type="email" name="" id="email" placeholder="E-Mail Addresse" title="E-mail Addresse" required> <br>
-                <input type="text" id="plz" placeholder="Postleitzahl" title="Postleitzahl"required>
-                <input type="text" id="city" placeholder="Stadt" title="Stadt" required>
-                <input type="text" id="street" placeholder="Straße und Hausnummer" title="Straße und Hausnummer" required> <br>
-                <textarea placeholder="Details ihrer Bestellung" title="Details ihrer Bestellung"></textarea> <br>
+                <input type="text" id="firstname" placeholder="Vorname*" required>
+                <input type="text" id="lastname" placeholder="Nachname*" required>
+                <input type="email" name="" id="email" placeholder="E-Mail Addresse*" title="E-mail Addresse" required> <br>
+                <input type="text" id="plz" placeholder="Postleitzahl" title="Postleitzahl">
+                <input type="text" id="city" placeholder="Stadt" title="Stadt">
+                <input type="text" id="street" placeholder="Straße und Hausnummer" title="Straße und Hausnummer"> <br>
+                <textarea placeholder="Details ihrer Bestellung" title="Details ihrer Bestellung*" required></textarea> <br>
                 <input type="checkbox" id="readAGB" required>
-                <label for="readAGB">Ich stimme hiermit den allgemeinen Geschäftsbedingungen und der Datenschutzerklärung zu</label>
+                <label for="readAGB">Ich stimme hiermit den allgemeinen Geschäftsbedingungen und der Datenschutzerklärung zu*</label> <br>
+                *Pflichtfelder <br>
                 <input type="submit" value="Absenden">
+
                 
             </form>
 
