@@ -29,13 +29,24 @@
             <form action="" autocomplete="on">
             <!--    <label for="email">E-Mail Addresse:</label> -->
 
+                <select id="salutation">
+                    <option disabled="none" value="none" selected>---</option>
+                    <option value="male">Herr</option>
+                    <option value="female">Frau</option>
+                    <option value="other">Divers</option>
+
+                </select>
+                <br>
+                <input type="text" id="firstname" placeholder="Vorname" required>
+                <input type="text" id="lastname" placeholder="Nachname" required>
+                <input type="email" name="" id="email" placeholder="E-Mail Addresse" title="E-mail Addresse" required> <br>
                 <input type="text" id="plz" placeholder="Postleitzahl" title="Postleitzahl"required>
                 <input type="text" id="city" placeholder="Stadt" title="Stadt" required>
-                <input type="text" id="street" placeholder="Straße und Hausnummer" title="Straße und Hausnummer" required>
-                <input type="email" name="" id="email" placeholder="E-Mail Addresse" title="E-mail Addresse" required> <br>
-                <textarea placeholder="Details ihrer Bestellung" title="Details ihrer Bestellung"></textarea>
+                <input type="text" id="street" placeholder="Straße und Hausnummer" title="Straße und Hausnummer" required> <br>
+                <textarea placeholder="Details ihrer Bestellung" title="Details ihrer Bestellung"></textarea> <br>
                 <input type="checkbox" id="readAGB" required>
-                <label for="readAGB">Ich stimme den allgemeinen Geschäftsbedingungen </label>
+                <label for="readAGB">Ich stimme hiermit den allgemeinen Geschäftsbedingungen und der Datenschutzerklärung zu</label>
+                <input type="submit" value="Absenden">
                 
             </form>
 
