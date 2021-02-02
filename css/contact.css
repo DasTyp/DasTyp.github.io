@@ -1,0 +1,15 @@
+select{
+    background-color: #fff6e8;
+    color: #111111;
+}
+input{
+    background-color: #fff6e8;
+    color: #111111;
+    padding: 2px;
+}
+textarea{
+    resize: none;
+    background-color: #fff6e8;
+    color: #111111;
+
+}
