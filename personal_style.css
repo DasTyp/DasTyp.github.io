@@ -1,0 +1,16 @@
+.person_left img
+{
+	height: 150px;
+	float: left;
+}
+
+.person_right
+{
+	padding-left: 40%;
+}
+
+.person_right img
+{
+	height: 150px;
+	float: right;
+}
