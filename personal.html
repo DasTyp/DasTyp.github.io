@@ -4,6 +4,7 @@
 		<title>Brauerei-Team</title>
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="personal_style.css">
+		<script src="slideshow.js" async></script>
 	</head>
 	<body>
 		<div id="all">
@@ -18,7 +19,7 @@
 				</p>
 			</div>
 			<div class="slideshow">
-				<div class="mySlide">
+				<div class="mySlide fade">
 					<div class="person_left">
 						<img src="images/litke.jpg" alt="Christian Litke"/>
 						<div class="text">
@@ -31,7 +32,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="mySlide">
+				<div class="mySlide fade">
 					<div class="person_right">
 						<img src="images/birneder.jpg" alt="Matthias Birneder"/>
 						<div class="text">
@@ -44,7 +45,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="mySlide">
+				<div class="mySlide fade">
 					<div class="person_left">
 						<img src="" alt="Tim Knittel"/>
 						<div class="text">
@@ -57,7 +58,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="mySlide">
+				<div class="mySlide fade">
 					<div class="person_right">
 						<img src="images/bruestl.jpg" alt="Simon Brüstl"/>
 						<div class="text">
@@ -70,6 +71,10 @@
 						</div>	
 					</div>
 				</div>
+
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(-1)">&#10094;</a>
+
 			</div>
 		</div>
 	</body>
