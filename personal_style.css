@@ -2,19 +2,41 @@
 {
 	.person_left img
 	{
-		height: 150px;
+		height: 11rem;
 		float: left;
+	}
+
+	.person_left
+	{
+		margin-top: 3rem;
+		width: 100%;
 	}
 
 	.person_right
 	{
+		margin-top: 3rem;
 		padding-left: 40%;
 	}
 
 	.person_right img
 	{
-		height: 150px;
+		height: 11rem;
 		float: right;
+	}
+
+	.mySlide .fade
+	{
+		heigth: 11rem;
+	}
+
+	.text
+	{
+		height: 11rem;
+	}
+
+	.next, .prev
+	{
+		visibility: hidden;
 	}
 }
 
@@ -34,12 +56,17 @@
 		display: none;
 		align-items: center;
 		justify-content: center;
+		align-content: center;
 	}
 
 	.mySlide img
 	{
-		margin-right: auto;
-		width: 50vw;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		align-content: center;
+		margin: auto;
+		height: 50vw;
 	}
 
 	.prev, .next 
@@ -66,6 +93,7 @@
 
 	.text
 	{
+		height: auto;
 		color: black;
 		padding: 8px 12px;
 		bottom: 8px;
