@@ -1,8 +1,17 @@
+.person_left img
+{
+	height: 150px;
+}
+
+.person_right img
+{
+	height: 150px;
+}
+
 @media (min-device-width: 801px)
 {
 	.person_left img
 	{
-		height: 150px;
 		float: left;
 	}
 
@@ -13,7 +22,6 @@
 
 	.person_right img
 	{
-		height: 150px;
 		float: right;
 	}
 }
