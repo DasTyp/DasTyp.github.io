@@ -24,7 +24,7 @@ textarea{
 .content{
     margin-left: 10%;
     margin-right: 10%;
-    color:var(--creme)
+    color:var(--creme);
 }
 .contact{
     float: left;
