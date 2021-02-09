@@ -1,15 +1,34 @@
+:root {
+    --creme: #fff6e8;
+    --brown: #1f1200;
+    --grey: #111111;
+}
+* {
+    font-family: "Oswald", Arial, sans-serif;
+    color: var(--creme);
+}
 select{
-    background-color: #fff6e8;
-    color: #111111;
+    background-color: var(--creme);
+    color: var(--grey);
 }
 input{
-    background-color: #fff6e8;
-    color: #111111;
+    background-color: var(--creme);
+    color: var(--grey);
     padding: 2px;
 }
 textarea{
     resize: none;
-    background-color: #fff6e8;
-    color: #111111;
+    background-color:var(--creme);
+    color: var(--grey);
 
+}
+.content{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.contact{
+    float: left;
+}
+.form{
+    margin-left: 50%;
 }

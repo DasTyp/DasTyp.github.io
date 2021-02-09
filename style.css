@@ -78,6 +78,7 @@ html, body {
 
 .content{
     height: 100%;
+    margin-top: 72px;
 }
 
 .footer {
