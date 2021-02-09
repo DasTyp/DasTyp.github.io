@@ -17,8 +17,13 @@ html, body {
     overflow-x: hidden;
 }
 
+a {
+    text-decoration: none;
+    color: var(--brown);
+}
+
 .main {
-    height: 100%;
+    min-height: 100%;
     background-color: var(--brown);
 }
 
@@ -30,7 +35,6 @@ html, body {
     top: 0;
     background-color: var(--creme);
     padding: 4px 8px;
-    overflow: hidden;
 }
 
 .nav .left {
