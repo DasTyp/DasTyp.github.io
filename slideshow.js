@@ -1,4 +1,4 @@
-if(window.matchMedia("(max-device-width)").match)
+if(window.matchMedia("(max-device-width: 800px)").match)
 {
     var slideIndex = 1;
     showSlides(slideIndex);
