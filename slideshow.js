@@ -1,5 +1,7 @@
-if(window.matchMedia("(max-device-width: 800px)").match)
-{
+//var x = window.matchMedia("(max-device-width: 800px)");
+
+//if(x.matches)
+//{
     var slideIndex = 1;
     showSlides(slideIndex);
 
@@ -32,4 +34,4 @@ if(window.matchMedia("(max-device-width: 800px)").match)
         slides[slideIndex-1].style.display = "block";
         dots[slideIndex-1].className += " active";
     }
-}
+//}
