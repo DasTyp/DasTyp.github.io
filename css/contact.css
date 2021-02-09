@@ -5,7 +5,6 @@
 }
 * {
     font-family: "Oswald", Arial, sans-serif;
-    color: var(--creme);
 }
 select{
     background-color: var(--creme);
@@ -25,10 +24,14 @@ textarea{
 .content{
     margin-left: 10%;
     margin-right: 10%;
+    color:var(--creme)
 }
 .contact{
     float: left;
 }
 .form{
     margin-left: 50%;
+}
+.age-check{
+    color: var(--grey);
 }
