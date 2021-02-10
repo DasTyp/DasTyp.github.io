@@ -46,6 +46,7 @@ html, body {
     margin: 16px 0;
 }
 
+
 .nav .right {
     display: flex;
     flex-grow: 1;
@@ -90,8 +91,8 @@ html, body {
 }
 
 .footer .bottom {
-    padding: 32px 0;
-    font-size: 80%;
+    padding: 5px 0;
+    font-size: 60%;
 }
 
 .sidebar {

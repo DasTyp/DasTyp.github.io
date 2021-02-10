@@ -3,10 +3,13 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
         <link rel="stylesheet" type="text/css" href="css/landingpagestyle.css">
+        <link rel="stylesheet" type="text/css" href="css/landingpagestyle_mobile.css">
         <title>
             Grafenberger Familienbrauerei
         </title>
+        <script src="slideshow.js" async></script>
     </head>
     <body>
         <div class="main">
@@ -18,7 +21,7 @@
                     <a href="Werksverkauf_und_Brauereitour.html"><button class="nav-menu">Brauereitour</button></a>
                 </div>
                 <div class="icon">
-                    <img src="images/instagram.png">
+                    <img src="images/logo.png">
                 </div>
                 <div class="right">
                     <button class="nav-menu" id="shop">Unser Shop</button>
@@ -28,21 +31,148 @@
             </div>
             <div class="content">
                 
-                <img id="titlepic" src="images/beer-barrel-956322_1920.jpg">
-
-                <img src="images/down-arrow.svg" >
-
-                <img src="images/up-arrow.svg" style="background-color:white">
-
-                <img src="http://placehold.it/250x150" alt="" /><img src="http://placehold.it/250x150" alt="" /><img src="http://placehold.it/250x150" alt="" /><img src="http://placehold.it/250x150" alt="" />
-
-                <div> 
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, 
-                    no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-                    sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                <div class="picparent">
+                    <img class="backgroundpic" src="images/beer-barrel-956322_1920.jpg">
+                    <div class="logoandtextinpic">
+                        <table>
+                            <tr>
+                                <td><img src="images/logo.png"></td>
+                            </tr>
+                            <tr>
+                                <td><h1>Brauereikultur seit 1612</h1></td>
+                            </tr>  
+                        </table>
+                    </div>
+                    <div class="arrowdown arrowcentered"><input type="image" src="images/instagram.png" alt="Pfeil nach unten"></div>
                 </div>
 
+                <div class="arrowcentered"><input type="image" src="images/instagram.png" alt="Pfeil nach unten"></div>
+            
+            <div id="landingpagegallerydesktop">
+                <table>
+                    <th>Unsere Biere:</th>
+                        <tr>
+                            <td><img class="beargallerypicsize" src="images/beerbottewithoutlogo.png" alt="Bild von Grafenberger Dunkles"></td>
+                            <td><img class="beargallerypicsize" src="images/beerbottewithoutlogo.png" alt="Bild von Grafenberger Dunkles"></td>
+                            <td><img class="beargallerypicsize" src="images/beerbottewithoutlogo.png" alt="Bild von Grafenberger Dunkles"></td>
+                            <td><img class="beargallerypicsize" src="images/beerbottewithoutlogo.png" alt="Bild von Grafenberger Dunkles"></td>
+                        </tr>
+                        <tr>
+                            <td>Grafenberger Dunkles:</td>
+                            <td>Hefewunder:</td>
+                            <td>Edel-Heller Hopfentee:</td>
+                            <td>Grafenbock:</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <ul>
+                                    <li>Farbe: dunkel</li>
+                                    <li>Stammwürze: 12%</li>
+                                    <li>Alhoholgehalt: 5%</li>
+                                    <li>Geschmack: fein malzig, kleine Prise vom Hopfen</li>                             
+                                    <li>Aus Bio-Getreide erzeugt</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>Farbe: hell</li>
+                                    <li>Stammwürze: </li>                              
+                                    <li>Alhoholgehalt: </li>  
+                                    <li>Geschmack: fein malzig, kleine Prise vom Hopfen</li>                               
+                                    <li>Aus Bio-Getreide erzeugt</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>Farbe</li>
+                                    <li>Stammwürze: </li>
+                                    <li>Alhoholgehalt: </li>
+                                    <li>Geschmack: fein malzig, kleine Prise vom Hopfen</li> 
+                                    <li>Aus Bio-Getreide erzeugt</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>Farbe:</li>
+                                    <li>Stammwürze: 12%</li>
+                                    <li>Alhoholgehalt: 5%</li>
+                                    <li>Geschmack: fein malzig, kleine Prise vom Hopfen</li> 
+                                    <li>Aus Bio-Getreide erzeugt</li>
+                                </ul>
+                            </td>
+                        </tr>          
+                </table>
             </div>
+
+<!-- mobile unten -->
+
+    <div id="landingpagegallerymobile">
+    <div class="slideshow">
+						<div class="mySlide fade" style="display: flex;">
+							<div class="person_left">
+								<img src="images/beerbottewithoutlogo.png" alt="Bild von Grafenberger Dunkles"/>
+								<div class="text">
+									<h2>Grafenberger Dunkles</h2>
+									<li>Farbe: dunkel</li>
+                                    <li>Stammwürze: 12%</li>
+                                    <li>Alhoholgehalt: 5%</li>
+                                    <li>Geschmack: fein malzig, kleine Prise vom Hopfen</li>                             
+                                    <li>Aus Bio-Getreide erzeugt</li>
+								</div>
+							</div>
+						</div>
+						<div class="mySlide fade">
+							<div class="person_right">
+								<img src="images/beerbottewithoutlogo.png" alt="Bild von Hefewunder"/>
+								<div class="text">
+									<h2>Hefewunder</h2>
+									<li>Farbe: hell</li>
+                                    <li>Stammwürze: </li>                              
+                                    <li>Alhoholgehalt: </li>  
+                                    <li>Geschmack: fein malzig, kleine Prise vom Hopfen</li>                               
+                                    <li>Aus Bio-Getreide erzeugt</li>
+								</div>
+							</div>
+						</div>
+						<div class="mySlide fade">
+							<div class="person_left">
+								<img src="images/beerbottewithoutlogo.png" alt="Bild von Edel-Heller Hopfentee"/>
+								<div class="text">
+									<h2>Edel-Heller Hopfentee</h2>
+									<li>Farbe</li>
+                                    <li>Stammwürze: </li>
+                                    <li>Alhoholgehalt: </li>
+                                    <li>Geschmack: fein malzig, kleine Prise vom Hopfen</li> 
+                                    <li>Aus Bio-Getreide erzeugt</li>
+								</div>
+							</div>
+						</div>
+						<div class="mySlide fade">
+							<div class="person_right">
+								<img src="images/beerbottewithoutlogo.png" alt="Bild von Grafenbock"/>
+								<div class="text">
+									<h2>Grafenbock</h2>
+									<li>Farbe:</li>
+                                    <li>Stammwürze: 12%</li>
+                                    <li>Alhoholgehalt: 5%</li>
+                                    <li>Geschmack: fein malzig, kleine Prise vom Hopfen</li> 
+                                    <li>Aus Bio-Getreide erzeugt</li>
+								</div>	
+							</div>
+						</div>
+		
+						<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+						<a class="next" onclick="plusSlides(-1)">&#10095;</a>
+		
+				
+				</div>
+     </div>
+
+                
+                
+
+
+            
             </div>
             <div class="footer">
                 <div class="top">
@@ -54,7 +184,7 @@
                 </div>
                 <div class="bottom">
                     <div>Icons made by <a href="https://www.flaticon.com/authors/kiranshastry" title="Kiranshastry">Kiranshastry</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-                    <div>Icons made by <a href="https://www.flaticon.com/authors/vitaly-gorbachev" title="Vitaly Gorbachev">Vitaly Gorbachev</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+                    <div>Icons made by <a href="https://www.flaticon.com/authors/good-ware" title="Good Ware">Good Ware</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
                 </div>
             </div>
         </div>
