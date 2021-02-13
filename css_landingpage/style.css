@@ -6,7 +6,6 @@
 
 * {
     font-family: "Oswald", Arial, sans-serif;
-    color: #fff6e8;
 }
 
 html, body {
@@ -20,6 +19,7 @@ html, body {
 
 .main {
     background-color: var(--brown);
+    
 }
 
 .nav {
@@ -45,6 +45,7 @@ html, body {
 .nav .icon {
     margin: 16px 0;
 }
+
 
 .nav .right {
     display: flex;
@@ -79,19 +80,6 @@ html, body {
 .content{
     padding-top:64px;
     
-}
-
-.footer {
-    background-color: var(--grey);
-    padding: 32px 5%;
-    color: white;
-    display: grid;
-    grid-template-rows: 1fr 32px;
-}
-
-.footer .bottom {
-    padding: 32px 0;
-    font-size: 80%;
 }
 
 .sidebar {
@@ -208,10 +196,6 @@ html, body {
         justify-content: end;
     }
 
-    .footercontent{
-        text-align:center;
-        padding-top:2%;
-    }
 }
 
 @media screen and (max-width: 670px) {
@@ -227,13 +211,7 @@ html, body {
     #sidebar {
         display: none;
     }
-    .footer .top{
-        display:flex;
-        justify-content: space-around;
-    }
-    .footercontent{
-        float:left;
-    }
+
 }
 
 @media screen and (max-width: 350px) {
