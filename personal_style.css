@@ -1,5 +1,10 @@
 @media (min-device-width: 801px)
 {
+	#introduction
+	{
+		color: #fff6e8;
+	}
+
 	.person_left img
 	{
 		height: 11rem;
@@ -32,6 +37,7 @@
 	.text
 	{
 		height: 11rem;
+		color: #fff6e8;
 	}
 
 	.next, .prev
@@ -42,7 +48,10 @@
 
 @media (max-device-width: 800px)
 {
-	
+	#introduction
+	{
+		color: #fff6e8;
+	}
 
 	.slideshow
 	{
@@ -77,7 +86,7 @@
 		width: auto;
 		margin-top: -22px;
 		padding: 16px;
-		color: black;
+		color: #fff6e8;
 		font-weight: bold;
 		font-size: 18px;
 		transition: 0.6s ease;
@@ -94,10 +103,10 @@
 	.text
 	{
 		height: auto;
-		color: black;
 		padding: 8px 12px;
 		bottom: 8px;
 		text-align: center;
+		color: #fff6e8;
 	}
 
 	.fade 
