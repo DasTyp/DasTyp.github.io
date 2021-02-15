@@ -1,8 +1,6 @@
 let sidebar = document.getElementById('sidebar');
 let menuButton = document.getElementById('menubutton');
 let closeSidebar = document.getElementById('close-sidebar');
-let age_blocker = document.getElementById('blocker');
-let age_confirm = document.getElementById('age_confirm');
 
 let shoppingCart = document.getElementById('shopping-cart');
 let openShopping = document.getElementById('open-cart');
@@ -77,8 +75,3 @@ openShopping.onclick = () => {
     }
 } 
 
-age_confirm.onclick = () => {
-    age_blocker.classList.add("clicked")
-    setTimeout(function(){    age_blocker.style.display = "none";},300);
-
-}
