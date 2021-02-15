@@ -3,8 +3,10 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <link rel="stylesheet" type="text/css" href="css/contact.css">
+        <link rel="stylesheet" type="text/css" href="css_contact/style.css">
+        <link rel="stylesheet" type="text/css" href="css_contact/contact.css">
+        <link rel="stylesheet" type="text/css" href="css_contact/contact_mobile.css">
+        <link rel="stylesheet" type="text/css" href="css_contact/footer.css">
         <title>
             Grafenberg Familienbrauerei
         </title>
@@ -19,12 +21,12 @@
                     <button class="nav-menu">Brauereitour</button>
                 </div>
                 <div class="icon">
-                    <img src="images/instagram.png">
+                    <img src="images/logo.png" alt="Firmenlogo" id="company_sign">
                 </div>
                 <div class="right">
                     <button class="nav-menu" id="shop">Unser Shop</button>
-                    <button class="nav-menu" id="open-cart"><img src="images/shopping-bag.svg"></button>
-                    <button class="nav-menu" id="menubutton"><img src="images/list.svg"></button>
+                    <button class="nav-menu" id="open-cart"><img src="images/shopping-bag.svg" alt="Warenkorb"></button>
+                    <button class="nav-menu" id="menubutton"><img src="images/list.svg" alt="Menüliste"></button>
                 </div>
             </div>
             <div class="age-blocker" id="blocker">
@@ -43,13 +45,13 @@
             <p>    
                 <h2>Kontaktieren Sie uns:</h2>
                 <dl>
-                    <dt>Über E-mail:</dt>
-                    <dd>Kontakt@Grafenberg.de</dd>
-                    <dt>Telefonisch:</dt>
+                    <dt><b>Über E-mail:</b></dt>
+                    <dd>Kontakt@Grafenberger.de</dd>
+                    <dt><b>Telefon:</b></dt>
                     <dd>+49 07123 123456</dd>
-                    <dt>Fax:</dt>
+                    <dt><b>Fax:</b></dt>
                     <dd>+49 07123 456789</dd>
-                    <dt>Oder besuchen Sie uns:</dt>
+                    <dt><b>Oder besuchen Sie uns:</b></dt>
                     <dd>72661 Grafenberg <br>
                         Kirchstraße 20</dd>
                 </dl>
@@ -57,9 +59,10 @@
         </div>
         <div class="form">
             <p>
-                <h2>Oder benutzen Sie unser Konatktformular:</h2>
+                <h2>Oder benutzen Sie unser Kontaktformular:</h2>
                 Haben Sie ein Anliegen, Fragen oder wollen Sie eine Sonderbestellung aufgeben? <br>
-                Kontaktieren Sie uns mithilfe des folgenden Formulars und wir kommen baldmöglichst auf Sie zu.
+                Kontaktieren Sie uns mithilfe des folgenden Formulars und wir kommen baldmöglichst auf Sie zu.<br>
+                
                 <form action="" autocomplete="on">
 
                     <select id="salutation">
@@ -77,8 +80,8 @@
                     <input type="text" id="street" placeholder="Straße und Hausnummer" title="Straße und Hausnummer"> <br>
                     <textarea placeholder="Details ihrer Bestellung" title="Details ihrer Bestellung*" required></textarea> <br>
                     <input type="checkbox" id="readAGB" required>
-                    <div><label for="readAGB">Ich habe die allgemeinen Geschäftsbedingungen und der Datenschutzerklärung gelesen und stimme diesen zu*</label> <br>
-                    *Pflichtfelder <br></div>
+                    <div><label for="readAGB"><small>Ich habe die allgemeinen Geschäftsbedingungen und die Datenschutzerklärung gelesen und stimme diesen zu*</small></label> <br>
+                    <small>*Pflichtfelder</small><br></div>
                     <input type="submit" value="Absenden">
 
                     
@@ -91,35 +94,40 @@
             </div>
             <div class="footer">
                 <div class="top">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec nunc ultrices, volutpat enim a, euismod quam. Donec eget ornare mi, sed tincidunt turpis. Donec quam lorem, interdum ut euismod eget, consequat id risus. Duis vestibulum velit eu libero tincidunt interdum. Sed laoreet vulputate lectus, et pretium felis gravida fermentum. Nam a tellus sed sapien luctus bibendum et vitae urna. Donec interdum tincidunt massa vel placerat. Fusce et diam lacinia, sodales turpis in, accumsan lorem. Aliquam lobortis libero sapien, vel rhoncus urna tincidunt eu. Nunc iaculis risus at mauris sodales, et ornare massa porttitor. Donec in gravida magna, sed faucibus enim. Phasellus cursus enim in magna ultricies, ut elementum orci vulputate. Nulla a ligula id tortor vehicula venenatis tristique sed neque. Sed in feugiat libero, nec consequat lorem. 
+                    <div class="footercontent"><a href="impressum.html">Impressum</a></div>
+                    <div class="footercontent"><a href="agbs.html">AGBs</a></div>
+                    <div class="footercontent"><a href="dsgvo.html">Datenschutz</a></div>
+                    <div class="footercontent"><a href="contact.html">Kontakt</a></div>
+                    <div class="footercontent"><a href="https://www.instagram.com/grafenberger_brau/" target="_blank" ><img src="images/instagram.png" alt="Instagramfoto"></a></div>
                 </div>
                 <div class="bottom">
                     <div>Icons made by <a href="https://www.flaticon.com/authors/kiranshastry" title="Kiranshastry">Kiranshastry</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+                    <div>Icons made by <a href="https://www.flaticon.com/authors/vitaly-gorbachev" title="Vitaly Gorbachev">Vitaly Gorbachev</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
                 </div>
             </div>
         </div>
         <div class="sidebar" id="sidebar">
             <div class="close-sidebar-container">
-                <button id="close-sidebar"><img src="images/right-arrow.svg"></button>
+                <button id="close-sidebar"><img src="images/right-arrow.svg" alt="Pfeil nach rechts"></button>
             </div>
             <button class="sidebar-menu" id="sidebar-shop">
-                <img src="images/shopping-cart.svg">
+                <img src="images/shopping-cart.svg" alt="Warenkorb">
                 Shop
             </button>
             <button class="sidebar-menu">
-                <img src="images/mechanical-gears-.svg">
+                <img src="images/mechanical-gears-.svg" alt="Bild für Biergenerator">
                 Biergenerator
             </button>
             <button class="sidebar-menu">
-                <img src="images/beer.svg">
+                <img src="images/beer.svg" alt="Bild für Biersortiment">
                 Unsere Biere
             </button>
             <button class="sidebar-menu">
-                <img src="images/destination.svg">
+                <img src="images/destination.svg" alt="Bild für Brauereitour">
                 Brauereitour
             </button>
             <button class="sidebar-menu">
-                <img src="images/group.svg">
+                <img src="images/group.svg" alt="Bild für Personalreiter">
                 Personal
             </button>
         </div>
