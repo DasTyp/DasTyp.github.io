@@ -24,28 +24,32 @@
 		margin-top: 3rem;
 		width: 100%;
 	}
-
 	.person_right
 	{
 		display: grid;
 		gap: 1rem;
-		grid-template-columns: 20rem 11rem;
-		padding-right: 5%;;
+		grid-template-columns: auto 20rem 13rem;
+		margin-right: 5%;
 		margin-top: 10%;
-		padding-left: 40%;
+		text-align: right;
+		width: 100%;
+	}
+	.person_right .align{
+		grid-column: 1;
+		grid-row: 1;
+		width: auto;
 	}
 
 	.person_right .text
 	{
-		grid-column: 1;
+		grid-column: 2;
 		grid-row: 1;
 	}
 
 	.person_right img
 	{
-		grid-column: 2;
+		grid-column: 3;
 		height: 11rem;
-		float: right;
 	}
 
 	.mySlide .fade
