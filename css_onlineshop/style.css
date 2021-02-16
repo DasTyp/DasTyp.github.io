@@ -17,14 +17,9 @@ html, body {
     overflow-x: hidden;
 }
 
-a {
-    text-decoration: none;
-    color: var(--brown);
-}
-
 .main {
-    min-height: 100%;
     background-color: var(--brown);
+    
 }
 
 .nav {
@@ -35,6 +30,7 @@ a {
     top: 0;
     background-color: var(--creme);
     padding: 4px 8px;
+    overflow: hidden;
 }
 
 .nav .left {
@@ -49,6 +45,7 @@ a {
 .nav .icon {
     margin: 16px 0;
 }
+
 
 .nav .right {
     display: flex;
@@ -80,6 +77,9 @@ a {
     height: 32px;
 }
 
+.content{
+    padding-top:64px;
+    
 }
 
 .sidebar {
@@ -195,6 +195,7 @@ a {
         flex-grow: 1;
         justify-content: end;
     }
+
 }
 
 @media screen and (max-width: 670px) {
@@ -210,6 +211,7 @@ a {
     #sidebar {
         display: none;
     }
+
 }
 
 @media screen and (max-width: 350px) {
@@ -225,8 +227,6 @@ a {
     #menubutton {
         padding-left: 8px;
     }
-
-
 }
 
 @font-face {
