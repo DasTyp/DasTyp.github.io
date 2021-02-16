@@ -8,28 +8,46 @@
 }
 .content{
     padding-top:64px;   
-    color: var(--creme);
+    color: var(--creme);  
 }
 
-.column {
-    float: left;
-    width: 20%;
-    padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
 
-  .row img{
-      width:50%;
-      height:auto;
-  }
 @media screen and (min-width:801px){
-
+    h1 {
+        padding-left:10%;
+    }
+    h2 {
+        font-size:1em;
+    }
+    
+    .column {
+        float: left;
+        width: 20%;
+        height: auto;
+        padding: 1%;
+        text-align:center;
+        color:black;
+        
+      }
+    
+      .row {
+          padding-bottom:50px;
+          padding-left:10%;
+      }
+    
+    
+      
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+    
+      .row img{
+          width:50%;
+          height:auto;
+         
+      }
 
 }
