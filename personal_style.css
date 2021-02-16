@@ -13,18 +13,30 @@
 
 	.person_left
 	{
+		display: grid;
+		grid-template-columns: 11rem auto;
+		padding: 5%;
 		margin-top: 3rem;
 		width: 100%;
 	}
 
 	.person_right
 	{
+		display: grid;
+		grid-template-columns: auto 11rem;
 		margin-top: 3rem;
 		padding-left: 40%;
 	}
 
+	.person_right .text
+	{
+		grid-column: 1;
+		grid-row: 1;
+	}
+
 	.person_right img
 	{
+		grid-column: 2;
 		height: 11rem;
 		float: right;
 	}
@@ -43,6 +55,11 @@
 	.next, .prev
 	{
 		visibility: hidden;
+	}
+
+	.slideshow
+	{
+		padding-bottom: 10%;
 	}
 }
 
