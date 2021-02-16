@@ -1,3 +1,8 @@
+.content
+{
+	padding-top: 64px;
+}
+
 @media (min-device-width: 801px)
 {
 	#introduction
@@ -15,7 +20,7 @@
 	{
 		display: grid;
 		grid-template-columns: 11rem auto;
-		padding: 5%;
+		padding-left: 5%;
 		margin-top: 3rem;
 		width: 100%;
 	}
@@ -23,8 +28,10 @@
 	.person_right
 	{
 		display: grid;
-		grid-template-columns: auto 11rem;
-		margin-top: 3rem;
+		gap: 1rem;
+		grid-template-columns: 20rem 11rem;
+		padding-right: 5%;;
+		margin-top: 10%;
 		padding-left: 40%;
 	}
 
