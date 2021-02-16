@@ -1,0 +1,69 @@
+@media screen and (max-width:350px){
+    input{
+        width: 100%;
+    }
+    textarea{
+        width: 100%;
+        height:150px;
+    }
+
+}
+
+@media screen and (min-width:801px){
+
+:root {
+    --creme: #fff6e8;
+    --brown: #1f1200;
+    --grey: #111111;
+}
+* {
+    font-family: "Oswald", Arial, sans-serif;
+}
+select{
+    background-color: var(--creme);
+    color: var(--grey);
+    margin-top:1em;
+}
+input{
+    background-color: var(--creme);
+    color: var(--grey);
+    padding: 2px;
+}
+textarea{
+    resize: none;
+    background-color:var(--creme);
+    color: var(--grey);
+    width: 78%;
+    max-width: 515px;
+}
+.content{
+    margin-left: 10%;
+    margin-right: 10%;
+    color:var(--creme);
+}
+.contact{
+    float: left;
+}
+.form{
+    margin-left: 50%;
+}
+.age-check{
+    color: var(--grey);
+}
+iframe{
+    padding-top:5%;
+    width:100%;
+    height:50em;
+}
+small{
+    font-size:0.6em;
+}
+dt {
+    padding-top:1em;
+    padding-bottom:1em;
+}
+#company_sign {
+    width:32px;
+    height:32px;
+}
+}

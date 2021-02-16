@@ -1,0 +1,49 @@
+@media screen and (max-width:800px){
+
+    :root {
+        --creme: #fff6e8;
+        --brown: #1f1200;
+        --grey: #111111;
+    }
+    * {
+        font-family: "Oswald", Arial, sans-serif;   
+    }
+    
+    select{
+        background-color: var(--creme);
+        color: var(--grey);
+        margin-top:1em;
+    }
+    input{
+        background-color: var(--creme);
+        color: var(--grey);
+        padding: 2px;
+    }
+    textarea{
+        resize: none;
+        background-color:var(--creme);
+        color: var(--grey);
+    
+    }
+    .content{
+        margin-left: 10%;
+        margin-right: 10%;
+        color:var(--creme);
+    }
+    iframe{
+        padding-top:5%;
+        width:100%;
+        height:10%;
+    }
+    small{
+        font-size:0.6em;
+    }
+    dt {
+        padding-top:1em;
+        padding-bottom:1em;
+    }
+    #company_sign {
+        width:32px;
+        height:32px;
+    }
+    }

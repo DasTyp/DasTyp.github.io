@@ -3,13 +3,14 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-        <link rel="stylesheet" type="text/css" href="css/landingpagestyle.css">
-        <link rel="stylesheet" type="text/css" href="css/landingpagestyle_mobile.css">
+        <link rel="stylesheet" type="text/css" href="css_landingpage/style.css">
+        <link rel="stylesheet" type="text/css" href="css_landingpage/landingpagestyle.css">
+        <link rel="stylesheet" type="text/css" href="css_landingpage/landingpagestyle_mobile.css">
+        <link rel="stylesheet" type="text/css" href="css/footer.css">
+        
         <title>
             Grafenberger Familienbrauerei
         </title>
-        <script src="slideshow.js" async></script>
     </head>
     <body>
         <div class="main">
@@ -21,32 +22,38 @@
                     <a href="Werksverkauf_und_Brauereitour.html"><button class="nav-menu">Brauereitour</button></a>
                 </div>
                 <div class="icon">
-                    <img src="images/logo.png">
+                    <img src="images/logo.png" alt="Brauereilogo">
                 </div>
                 <div class="right">
-                    <button class="nav-menu" id="shop">Unser Shop</button>
-                    <button class="nav-menu" id="open-cart"><img src="images/shopping-bag.svg"></button>
-                    <button class="nav-menu" id="menubutton"><img src="images/list.svg"></button>
+                    <a href="biergenerator.html"><button class="nav-menu">Biergenerator</button></a>
+                    <a href="onlineshop.html"><button class="nav-menu" id="shop">Unser Shop</button></a>
+                    <button class="nav-menu" id="open-cart"><img src="images/shopping-bag.svg" alt="Shopping Bag"></button>
+                    <button class="nav-menu" id="menubutton"><img src="images/list.svg" alt="Liste"></button>
                 </div>
             </div>
-            <div class="content">
+            <div class="content" id="landingpage_top_anker">
                 
                 <div class="picparent">
-                    <img class="backgroundpic" src="images/beer-barrel-956322_1920.jpg">
                     <div class="logoandtextinpic">
                         <table>
                             <tr>
-                                <td><img src="images/logo.png"></td>
+                                <td><img src="images/logo.png" alt="Brauereilogo"></td>
                             </tr>
                             <tr>
                                 <td><h1>Brauereikultur seit 1612</h1></td>
                             </tr>  
                         </table>
+
+                        
                     </div>
-                    <div class="arrowdown arrowcentered"><input type="image" src="images/instagram.png" alt="Pfeil nach unten"></div>
+                    <div class="arrowdown arrowcentered">
+                     <a href="#landingpage_bot_anker"><img src="images/down-arrow.svg" alt="Pfeil nach unten" class="arrow"></a>
+                    </div>
                 </div>
 
-                <div class="arrowcentered"><input type="image" src="images/instagram.png" alt="Pfeil nach unten"></div>
+                <div class="arrowup arrowcentered">
+                    <a href="#landingpage_top_anker"><img src="images/up-arrow.svg" alt="Pfeil nach oben" class="arrow"></a>
+                </div>
             
             <div id="landingpagegallerydesktop">
                 <table>
@@ -66,38 +73,38 @@
                         <tr>
                             <td>
                                 <ul>
-                                    <li>Farbe: dunkel</li>
+                                    <li>Farbe: glänzende Mahagonifarbe</li>
+                                    <li>Stammwürze: 14%</li>
+                                    <li>Alhoholgehalt: 5,5%</li>
+                                    <li>Geschmack: malzig-kräftig und vollmundig wärmend</li>                             
+                                    <li>Mit Bio-Zutaten aus der Region erzeugt</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>Farbe: helles strohgelb</li>
+                                    <li>Stammwürze: 11,5%</li>                              
+                                    <li>Alhoholgehalt: 5% </li>  
+                                    <li>Geschmack: malzaromatisch, leichte Note vom Hopfen</li>                               
+                                    <li>Mit Bio-Zutaten aus der Region erzeugt</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>Farbe: strohgelb</li>
+                                    <li>Stammwürze: 6%</li>
+                                    <li>Alhoholgehalt: 3%</li>
+                                    <li>Geschmack: feiner Hopfengeschmack und Hauch von Waldbeeren</li> 
+                                    <li>Mit Bio-Zutaten aus der Region erzeugt</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>Farbe: eiche-antik</li>
                                     <li>Stammwürze: 12%</li>
                                     <li>Alhoholgehalt: 5%</li>
-                                    <li>Geschmack: fein malzig, kleine Prise vom Hopfen</li>                             
-                                    <li>Aus Bio-Getreide erzeugt</li>
-                                </ul>
-                            </td>
-                            <td>
-                                <ul>
-                                    <li>Farbe: hell</li>
-                                    <li>Stammwürze: </li>                              
-                                    <li>Alhoholgehalt: </li>  
-                                    <li>Geschmack: fein malzig, kleine Prise vom Hopfen</li>                               
-                                    <li>Aus Bio-Getreide erzeugt</li>
-                                </ul>
-                            </td>
-                            <td>
-                                <ul>
-                                    <li>Farbe</li>
-                                    <li>Stammwürze: </li>
-                                    <li>Alhoholgehalt: </li>
                                     <li>Geschmack: fein malzig, kleine Prise vom Hopfen</li> 
-                                    <li>Aus Bio-Getreide erzeugt</li>
-                                </ul>
-                            </td>
-                            <td>
-                                <ul>
-                                    <li>Farbe:</li>
-                                    <li>Stammwürze: 12%</li>
-                                    <li>Alhoholgehalt: 5%</li>
-                                    <li>Geschmack: fein malzig, kleine Prise vom Hopfen</li> 
-                                    <li>Aus Bio-Getreide erzeugt</li>
+                                    <li>Mit Bio-Zutaten aus der Region erzeugt</li>
                                 </ul>
                             </td>
                         </tr>          
@@ -107,56 +114,64 @@
 <!-- mobile unten -->
 
     <div id="landingpagegallerymobile">
-    <div class="slideshow">
+        <div class="slideshow">
 						<div class="mySlide fade" style="display: flex;">
-							<div class="person_left">
+							<div>
 								<img src="images/beerbottewithoutlogo.png" alt="Bild von Grafenberger Dunkles"/>
 								<div class="text">
 									<h2>Grafenberger Dunkles</h2>
-									<li>Farbe: dunkel</li>
-                                    <li>Stammwürze: 12%</li>
-                                    <li>Alhoholgehalt: 5%</li>
-                                    <li>Geschmack: fein malzig, kleine Prise vom Hopfen</li>                             
-                                    <li>Aus Bio-Getreide erzeugt</li>
+                                    <ul>
+									<li>Farbe: glänzende Mahagonifarbe</li>
+                                    <li>Stammwürze: 14%</li>
+                                    <li>Alhoholgehalt: 5,5%</li>
+                                    <li>Geschmack: malzig-kräftig und vollmundig wärmend</li>                             
+                                    <li>Mit Bio-Zutaten aus der Region erzeugt</li>
+                                    </ul>
 								</div>
 							</div>
 						</div>
 						<div class="mySlide fade">
-							<div class="person_right">
+							<div>
 								<img src="images/beerbottewithoutlogo.png" alt="Bild von Hefewunder"/>
 								<div class="text">
 									<h2>Hefewunder</h2>
-									<li>Farbe: hell</li>
-                                    <li>Stammwürze: </li>                              
-                                    <li>Alhoholgehalt: </li>  
-                                    <li>Geschmack: fein malzig, kleine Prise vom Hopfen</li>                               
-                                    <li>Aus Bio-Getreide erzeugt</li>
+                                    <ul>
+									<li>Farbe: helles strohgelb</li>
+                                    <li>Stammwürze: 11,5%</li>                              
+                                    <li>Alhoholgehalt: 5% </li>  
+                                    <li>Geschmack: malzaromatisch, leichte Note vom Hopfen</li>                               
+                                    <li>Mit Bio-Zutaten aus der Region erzeugt</li>
+                                </ul>
 								</div>
 							</div>
 						</div>
 						<div class="mySlide fade">
-							<div class="person_left">
+							<div>
 								<img src="images/beerbottewithoutlogo.png" alt="Bild von Edel-Heller Hopfentee"/>
 								<div class="text">
 									<h2>Edel-Heller Hopfentee</h2>
-									<li>Farbe</li>
-                                    <li>Stammwürze: </li>
-                                    <li>Alhoholgehalt: </li>
-                                    <li>Geschmack: fein malzig, kleine Prise vom Hopfen</li> 
-                                    <li>Aus Bio-Getreide erzeugt</li>
+                                    <ul>
+									<li>Farbe: strohgelb</li>
+                                    <li>Stammwürze: 6%</li>
+                                    <li>Alhoholgehalt: 3%</li>
+                                    <li>Geschmack: feiner Hopfengeschmack und Hauch von Waldbeeren</li> 
+                                    <li>Mit Bio-Zutaten aus der Region erzeugt</li>
+                                </ul>
 								</div>
 							</div>
 						</div>
 						<div class="mySlide fade">
-							<div class="person_right">
+							<div>
 								<img src="images/beerbottewithoutlogo.png" alt="Bild von Grafenbock"/>
 								<div class="text">
 									<h2>Grafenbock</h2>
-									<li>Farbe:</li>
+                                    <ul>
+									<li>Farbe: eiche-antik</li>
                                     <li>Stammwürze: 12%</li>
                                     <li>Alhoholgehalt: 5%</li>
                                     <li>Geschmack: fein malzig, kleine Prise vom Hopfen</li> 
-                                    <li>Aus Bio-Getreide erzeugt</li>
+                                    <li>Mit Bio-Zutaten aus der Region erzeugt</li>
+                                </ul>
 								</div>	
 							</div>
 						</div>
@@ -165,53 +180,50 @@
 						<a class="next" onclick="plusSlides(-1)">&#10095;</a>
 		
 				
-				</div>
+		</div>
      </div>
 
                 
-                
-
-
-            
             </div>
-            <div class="footer">
+            <div class="footer" id="landingpage_bot_anker">
                 <div class="top">
-                    <div class="footercontent"><a href="impressum.html">Impressum</a></div>
-                    <div class="footercontent"><a href="agbs.html">AGBs</a></div>
-                    <div class="footercontent"><a href="dsgvo.html">Datenschutz</a></div>
+                    <div class="footercontent"><a href="rights/impressum.html">Impressum</a></div>
+                    <div class="footercontent"><a href="rights/agbs.html">AGBs</a></div>
+                    <div class="footercontent"><a href="rights/dsgvo.html">Datenschutz</a></div>
                     <div class="footercontent"><a href="contact.html">Kontakt</a></div>
                     <div class="footercontent"><a href="https://www.instagram.com/grafenberger_brau/" target="_blank" ><img src="images/instagram.png" alt="Instagramfoto"></a></div>
                 </div>
                 <div class="bottom">
                     <div>Icons made by <a href="https://www.flaticon.com/authors/kiranshastry" title="Kiranshastry">Kiranshastry</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
                     <div>Icons made by <a href="https://www.flaticon.com/authors/good-ware" title="Good Ware">Good Ware</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+                    <div>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
                 </div>
             </div>
         </div>
         <div class="sidebar" id="sidebar">
             <div class="close-sidebar-container">
-                <button id="close-sidebar"><img src="images/right-arrow.svg"></button>
+                <button id="close-sidebar"><img src="images/right-arrow.svg" alt="Pfeil nach rechts"></button>
             </div>
-            <button class="sidebar-menu" id="sidebar-shop">
-                <img src="images/shopping-cart.svg">
+            <a href="onlineshop.html"><button class="sidebar-menu" id="sidebar-shop">
+                <img src="images/shopping-cart.svg" alt="Warenkorb">
                 Shop
-            </button>
-            <button class="sidebar-menu">
-                <img src="images/mechanical-gears-.svg">
+            </button></a>
+            <a href="biergenerator.html"><button class="sidebar-menu">
+                <img src="images/mechanical-gears-.svg" alt="Biergeneratorbild">
                 Biergenerator
             </button>
-            <button class="sidebar-menu">
-                <img src="images/beer.svg">
+            <a href="index.html"><button class="sidebar-menu">
+                <img src="images/beer.svg" alt="Bild für unsere Biere">
                 Unsere Biere
-            </button>
-            <button class="sidebar-menu">
-                <img src="images/destination.svg">
+            </button></a>
+            <a href="Werksverkauf_und_Brauereitour.html"><button class="sidebar-menu">
+                <img src="images/destination.svg" alt="Bild für Brauereitour">
                 Brauereitour
-            </button>
-            <button class="sidebar-menu">
-                <img src="images/group.svg">
+            </button></a>
+            <a href="personal.html"><button class="sidebar-menu">
+                <img src="images/group.svg" alt="Bild für Brauereipersonal">
                 Personal
-            </button>
+            </button></a>
         </div>
         <div class="shopping-cart" id="shopping-cart">
             <p>Warenkorb</p>
@@ -222,5 +234,6 @@
             </div>
         </div>
         <script type="text/javascript" src="scripts/script.js" ></script>
+        <script src="scripts/indexslideshow.js"></script>
     </body>
 </html>
