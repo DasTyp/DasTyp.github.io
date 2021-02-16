@@ -31,7 +31,7 @@
 
 	.mySlide .fade
 	{
-		heigth: 11rem;
+		height: 11rem;
 	}
 
 	.text
@@ -46,7 +46,7 @@
 	}
 }
 
-@media (max-device-width: 800px)
+@media screen and (max-width: 800px)
 {
 	#introduction
 	{
