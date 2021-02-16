@@ -85,6 +85,7 @@ a {
     align-content: center;
     justify-content: center;
     position: absolute;
+    top:0%;
     background-color: #111111a9;
     text-align: center;
     width: 100%;
@@ -283,10 +284,7 @@ a {
     #menubutton {
         padding-left: 8px;
     }
-    .age-check{
-        height: 100%;
-        width: 100%;
-    }
+
 }
 
 @font-face {
