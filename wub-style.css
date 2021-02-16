@@ -1,7 +1,12 @@
+:root {
+    --creme: #fff6e8;
+    --brown: #1f1200;
+    --grey: #111111;
+}
 .content {
     padding: 0 64px;
     padding-top: 72px;
-    color: white;
+    color: var(--creme)
 }
 
 table {
