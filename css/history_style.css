@@ -17,13 +17,7 @@ html, body {
     overflow-x: hidden;
 }
 
-a {
-    text-decoration: none;
-    color: var(--brown);
-}
-
 .main {
-    min-height: 100%;
     background-color: var(--brown);
 }
 
@@ -35,6 +29,7 @@ a {
     top: 0;
     background-color: var(--creme);
     padding: 4px 8px;
+    overflow: hidden;
 }
 
 .nav .left {
@@ -49,6 +44,7 @@ a {
 .nav .icon {
     margin: 16px 0;
 }
+
 
 .nav .right {
     display: flex;
@@ -90,9 +86,7 @@ a {
     width: 100%;
     height: 100%;
     padding: 0px;
-    margin: 0%;
     transition: opacity 300ms;
-    
 }
 .age-blocker.clicked{
     opacity: 0;
@@ -125,8 +119,42 @@ a {
 .age-confirm:hover{
     cursor:pointer;
 }
+
 .content{
-    height: 100%;
+    padding-top:64px;
+    color:var(--creme);
+}
+
+.history-container{
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    gap: 5px;
+}
+
+.history-row {
+    display: grid;
+    grid-template-columns: 30% 1fr;
+    grid-column-gap: 16px;
+    align-items: center;
+}
+
+.history-image {
+    width: 100%;
+    height: auto;
+}
+
+}
+.footer {
+    background-color: var(--grey);
+    padding: 32px 5%;
+    color: white;
+    display: grid;
+    grid-template-rows: 1fr 32px;
+}
+
+.footer .bottom {
+    padding: 5px 0;
+    font-size: 60%;
 }
 
 .sidebar {
@@ -231,6 +259,15 @@ a {
     border-bottom: 1px solid var(--brown);
 }
 
+@media screen and (max-width: 625px) {
+    .history-row {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        padding: 16px 0;
+        grid-row-gap: 4px;
+    }
+}
+
 @media screen and (max-width: 1080px) {
     .nav .left {
         display: none;
@@ -241,6 +278,11 @@ a {
         flex-basis: 100%;
         flex-grow: 1;
         justify-content: end;
+    }
+
+    .footercontent{
+        text-align:center;
+        padding-top:2%;
     }
 }
 
@@ -257,6 +299,13 @@ a {
     #sidebar {
         display: none;
     }
+    .footer .top{
+        display:flex;
+        justify-content: space-around;
+    }
+    .footercontent{
+        float:left;
+    }
 }
 
 @media screen and (max-width: 350px) {
@@ -272,9 +321,14 @@ a {
     #menubutton {
         padding-left: 8px;
     }
-    .age-check{
-        height: 100%;
+    .historycontainer{
+        display:initial;
+    }
+    .historyimage{
         width: 100%;
+    }
+    .historytext{
+        display: initial;
     }
 }
 
