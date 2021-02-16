@@ -65,6 +65,9 @@
 
 @media screen and (max-width: 800px)
 {
+	.nav{
+		z-index: 20;
+	}
 	#introduction
 	{
 		color: #fff6e8;
@@ -93,6 +96,7 @@
 		align-content: center;
 		margin: auto;
 		height: 50vw;
+		z-index: 10;
 	}
 
 	.prev, .next 
