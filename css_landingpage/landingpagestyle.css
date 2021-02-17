@@ -19,7 +19,12 @@
 .content .arrow {
     width:50px;
     height:auto;
-    background-color:white;
+    background-color: var(--creme);
+    border-radius:15px;
+}
+
+ul li {
+    list-style-type:none;
 }
 
 
