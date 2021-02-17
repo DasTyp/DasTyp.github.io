@@ -238,6 +238,9 @@ a {
     .nav .left {
         display: none;
     }
+    .nav .right .rightheaderhide {
+        display: none;
+    }
 
     .nav .icon {
         display: flex;
