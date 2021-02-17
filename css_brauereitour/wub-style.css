@@ -37,6 +37,35 @@ th, td {
     line-height: 100px;
 }
 
+.register {
+    font-size: 24px;
+    padding: 8px 16px;
+    border: 1px solid var(--grey);
+    background-color: var(--creme);
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75); 
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+.register:hover {
+    cursor: pointer;
+}
+
+iframe{
+    padding-top:5%;
+    width:100%;
+    height:50em;
+}
+
+@media screen and (min-width:801px){
+
+iframe{
+    padding-top:5%;
+    width:100%;
+    height:50em;
+}
+
+    
+    
 .experiences {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -52,17 +81,28 @@ th, td {
     padding: 32px 16px;
     background: url(../images/paper-texture.jpg) center;
     color: var(--grey)
+} 
 }
 
-.register {
-    font-size: 24px;
-    padding: 8px 16px;
-    border: 1px solid var(--grey);
-    background-color: var(--creme);
-    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75); 
-    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
-}
+@media screen and (max-width:800px){
 
-.register:hover {
-    cursor: pointer;
-}
+    iframe{
+        padding-top:5%;
+        width:100%;
+        height:10%;
+    } 
+    
+    .experience {
+        margin-bottom:10%;
+        border-radius: 8px;
+        font-size: 18px;
+        text-align: center;
+        -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75); 
+        box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+        padding: 32px 16px;
+        background: url(../images/paper-texture.jpg) center;
+        color: var(--grey)
+    }
+
+    
+    }
