@@ -3,7 +3,10 @@
     --brown: #1f1200;
     --grey: #111111;
 }
-
+div .icon img {
+    height:32px;
+    width:32px;
+}
 * {
     font-family: "Oswald", Arial, sans-serif;
 }
@@ -15,16 +18,18 @@ html, body {
     width: 100%;
     font-family: "Oswald", Arial, sans-serif;
     overflow-x: hidden;
+    background-color: var(--brown);
 }
 
 a {
     text-decoration: none;
-    color: var(--brown);
+    color: var(--creme);
 }
 
 .main {
     min-height: 100% !important;
     height: 100%;
+    color: var(--creme);
 }
 
 .nav {
@@ -128,8 +133,7 @@ a {
 }
 
 .content{
-    padding-top: 72px;
-    height: calc(100% - 72px);
+    padding-top: 72px; 
     background-color: var(--brown);
     text-align:center;
     margin-left: 20%;
