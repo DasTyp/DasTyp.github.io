@@ -64,8 +64,6 @@ iframe{
     height:50em;
 }
 
-    
-    
 .experiences {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -82,6 +80,10 @@ iframe{
     background: url(../images/paper-texture.jpg) center;
     color: var(--grey)
 } 
+.experience img {
+    width:300px;
+    height:300px;
+}
 }
 
 @media screen and (max-width:800px){
@@ -102,6 +104,10 @@ iframe{
         padding: 32px 16px;
         background: url(../images/paper-texture.jpg) center;
         color: var(--grey)
+    }
+    .experience img {
+        width:50%;
+        height:50%;
     }
 
     
