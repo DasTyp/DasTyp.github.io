@@ -264,6 +264,9 @@ a {
     #sidebar {
         display: none;
     }
+    .content{
+        padding-top:64px;
+    }
 }
 
 @media screen and (max-width: 350px) {
