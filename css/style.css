@@ -129,7 +129,6 @@ a {
 
 .content{
     padding-top: 72px;
-    height: calc(100% - 72px);
     background-color: var(--brown);
 }
 
@@ -255,8 +254,12 @@ a {
 
 @media screen and (max-width: 1080px) {
     .nav .left {
+       display: none;
+    } 
+    .nav .right .rightheaderhide {
         display: none;
-    }
+    } 
+    
 
     .nav .icon {
         display: flex;
