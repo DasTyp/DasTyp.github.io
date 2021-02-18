@@ -29,10 +29,10 @@ openShopping.onclick = () => {
         shoppingCart.style.width = "0";
         shop_open = false;
     }
-}  
+} 
 
 age_confirm.onclick = () => {
+    //fetch("http://localhost:1337/is-sixteen");
     age_blocker.classList.add("clicked")
-    setTimeout(function(){    age_blocker.style.display = "none";},300);
-
+    setTimeout(function(){age_blocker.style.display = "none";},300);
 }
