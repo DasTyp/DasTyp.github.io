@@ -8,6 +8,11 @@
     font-family: "Oswald", Arial, sans-serif;
 }
 
+div .icon img {
+    height:32px;
+    width:32px;
+}
+
 html, body {
     margin: 0;
     padding: 0;
@@ -15,6 +20,7 @@ html, body {
     width: 100%;
     font-family: "Oswald", Arial, sans-serif;
     overflow-x: hidden;
+    background-color: var(--brown);
 }
 
 a {
