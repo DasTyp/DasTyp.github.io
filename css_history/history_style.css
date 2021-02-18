@@ -123,6 +123,8 @@ html, body {
 .content{
     padding-top:64px;
     color:var(--creme);
+    padding-left:5%;
+    padding-right:5%;
 }
 
 .history-container{

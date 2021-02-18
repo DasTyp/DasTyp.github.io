@@ -5,6 +5,10 @@ div .icon img {
 .content
 {
 	padding-top: 64px;
+    margin-left: 10%;
+    margin-right: 10%;
+    color:var(--creme);
+    
 }
 
 @media (min-device-width: 801px)
