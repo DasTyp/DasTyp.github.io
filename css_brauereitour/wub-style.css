@@ -1,3 +1,8 @@
+:root {
+    --creme: #fff6e8;
+    --brown: #1f1200;
+    --grey: #111111;
+}
 div .icon img {
     height:32px;
     width:32px;
@@ -5,7 +10,7 @@ div .icon img {
 .content {
     padding: 0 64px;
     padding-top: 72px;
-    color: white;
+    color: var(--creme);
 }
 
 table {
@@ -15,7 +20,7 @@ table {
 
 th, td {
     padding: 8px;
-    border: 1px solid white;
+    border: 1px solid var(--creme);
 }
 
 .main-header {
@@ -28,7 +33,7 @@ th, td {
 .divider {
     height: 1px;
     width: 100%;
-    background-color: white;
+    background-color: var(--creme);
     margin: 32px 0;
 }
 
@@ -110,5 +115,9 @@ iframe{
         height:50%;
     }
 
+    .register_container{
+        display: flex;
+        justify-content: center;
     
+    }
     }
